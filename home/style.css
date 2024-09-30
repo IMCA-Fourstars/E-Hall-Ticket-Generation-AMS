@@ -1,0 +1,105 @@
+  .icon{
+    margin-right: 100%;
+  }
+  .icon:hover
+  {border: 3px solid transparent;
+    animation: alternate-reverse;
+  }
+  body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/proj-bg-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 130% 250vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .login-container {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+  }
+  button:hover
+  {
+    background-color: #adacacf5;
+    color: navy;
+  }
+  .login-container button {
+    display: block;
+    width: 20%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .login-container img {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+#icon1,#icon3
+{
+  margin-right: 110px;
+  padding-left: 0px;
+  align-items: start;
+}
+#icon2
+{
+  display: inline-block;
+  margin-right: 40px;
+}
+#btext1,#btext3
+{
+font-size: 23px;
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 2px;
+margin-right: 1px;
+margin-left: 5px;
+text-align: right;
+}
+#btext2
+{
+  font-size: 23px;
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 2px;
+margin-left: 15px;
+text-align: right;
+}
+.login-options
+{
+  background: linear-gradient(rgba(236, 234, 234, 0.7),rgba(202, 200, 200, 0.726));
+  opacity:transparent ;
+  width: 600px;
+  height: 450px;
+  margin-left: 35%;
+  margin-right: 40%;
+}
+.title
+   {
+    background-color: rgba(233, 234, 235, 0.5);
+    color: blue;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: bold;
+   }
