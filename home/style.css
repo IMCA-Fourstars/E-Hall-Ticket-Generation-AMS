@@ -1,7 +1,7 @@
  
   .icon:hover
   {border: 3px solid transparent;
-    animation: alternate-reverse;
+    animation: alternate;
   }
   .icon{
     margin-right: 100%;
@@ -13,6 +13,8 @@
     background-size: 180% 250vh;
     font-family: Arial, sans-serif;
     text-align: center;
+    overflow-x: hidden;
+    position: relative;
     margin: 0;
     padding: 0;
   }
@@ -33,10 +35,11 @@
     color: black;
   }
   .login-container {
-    margin-top: 50px;
+    margin-top: 50%;
     padding-left: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
+    zoom: -30%;
    width: 300px;
   }
   button

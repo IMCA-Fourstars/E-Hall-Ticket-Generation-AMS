@@ -5,26 +5,40 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    
+ <meta name="viewport" content="width=device-width, initial-scale=1.5">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=972">
+<script>
+
+  if (window.innerWidth < 768) {
+
+    alert("This website is optimized for desktop viewing. Please access on a larger screen."); 
+
+  }
+
+</script> 
     <title>E-HallTicket & AMS-Reset Password</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-    <a href="../home/index.html">
-        <div class="icon"><img src="mini-project-logo-1.png" width="200px" />
-        </div>
+    <header>  
+          <a href="../home/index.html">
+        <i class="icon"><img src="mini-project-logo-1.png" width="200px" />
+        </i>
     </a>
+ <span class="navbar"><a  href="../home/index.html"><i class="fas fa-home"></i> <b>Home</b></a></span>
+</header>
+
     
-    <div class="title">E-Hall Ticket & AMS System</div>
+    <h3 class="title">E-Hall Ticket & AMS System</h3>
     <div class="forgot-password-container">
-        <h2>Forgot Password</h2>
-        <p>Enter your email address to reset your password.</p>
+        <h3 class="forgot-password">Forgot Password <i class="fas fa-question"></i></h3>
+        <p><i>Enter your email address <br>to reset your password.</i></p>
         <form action="" method="POST">
-            <input type="email" name="email" placeholder="Email Address" required>
+        <label for="email"><i class="fas fa-envelope"></i></label>&emsp;<input type="email" name="email" placeholder="Email Address" required>
             <button type="submit">Send Reset Link</button>
         </form>
     </div>

@@ -4,7 +4,7 @@
  }
  .icon:hover
  {border: 3px solid transparent;
-   animation: alternate-reverse;
+   animation: alternate;
  }
  body {
    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/proj-bg-1.png');
@@ -150,6 +150,7 @@ input
       text-align: center;
       padding-top: 3%;
       font-weight: bold;
+      margin-top: 42px;
      }
 
  
