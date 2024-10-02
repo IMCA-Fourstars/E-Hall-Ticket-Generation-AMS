@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="mini-project-logo-1.png">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <meta name="viewport"
@@ -19,50 +20,31 @@
 
     </script>
     <title>E-HallTicket & AMS-Reset Password</title>
-    <link rel="preload" href="proj-bg-1.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../styles/reset_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
     <header>
         <a href="../home/index.html">
-            <i class="icon"><img src="mini-project-logo-1.png" width="200px" />
+            <i class="icon"><img src="../img/mini-project-logo-1.png" width="200px" />
             </i>
         </a>
+        
+    <h3 class="title">E-Hall Ticket & AMS System</h3>
         <span class="navbar"><a href="../home/index.html"><i class="fas fa-home"></i> <b>Home</b></a></span>
     </header>
 
 
-    <h3 class="title">E-Hall Ticket & AMS System</h3>
     <div class="forgot-password-container">
         <h3 class="forgot-password">Forgot Password <i class="fas fa-question"></i></h3>
         <p><i>Enter your email address <br>to reset your password.</i></p>
-        <form id="email-form" method="POST">
+        <form  id="email-form" method="POST">
             <label for="email"><i class="fas fa-envelope"></i></label>&emsp;<input type="email" name="email" id="mail"
                 placeholder="Email Address" required>
-            <button type="submit" onclick="sendEmail">Send Reset Link</button>
+            <button type="submit">Send Reset Link</button>
         </form>
-        <script type="text/javascript">
-            function sendEmail() {
-                var email = document.getElementById('mail').value;
-                Email.send({
-                    Host: "smtp.mail.com",
-                    Username: "tecknohow.132@gmail.com",
-                    Password: "Qsdr345#@123",
-                    To: email,
-                    From: "tecknohow.132@gmail.com",
-                    Subject: "Test Email",
-                    Body: "This is a test email sent using JavaScript."
-                })
-                    .then(function (message) {
-                        alert("Mail sent successfully");
-                    })
-                    .catch(function (error) {
-                        print("Failed to send mail: " + error);
-                    });
-            }
-        </script>
+      
     </div>
 </body>
 
