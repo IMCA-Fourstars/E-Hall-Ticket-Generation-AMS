@@ -40,8 +40,8 @@ body {
 
 .login-container button {
   display: block;
-  width: 80%;
-  margin: 20px auto;
+  width: 70%;
+  margin-left: 15%;
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
@@ -122,7 +122,7 @@ input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 button {
