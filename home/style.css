@@ -35,10 +35,11 @@
     color: black;
   }
   .login-container {
-    margin-top: 50%;
+    margin-top: 45%;
     padding-left: 50px;
+    margin-right: auto;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     zoom: -30%;
    width: 300px;
   }
@@ -100,13 +101,13 @@ text-align: right;
   margin-right: 50px;
 }
 .title
-   {
-    background-color: rgba(233, 234, 235, 0.5);
-    color: blue;
-    width: 110%;
-    height: 60px;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 3%;
-    font-weight: bold;
-   }
+{
+ background-color: rgba(233, 234, 235, 0.5);
+ color: blue;
+ height: 60px;
+ font-size: 30px;
+ text-align: center;
+ padding-top: 3%;
+ font-weight: bold;
+ margin-top: 42px;
+}

@@ -130,8 +130,8 @@ input
           text-decoration: none;
       }
       .forgot-password:hover {
-          text-decoration: underline;
-      }
+        color: rgb(151, 13, 151);
+    }
       .home-button {
           position: absolute;
           top: 20px;
