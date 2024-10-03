@@ -15,7 +15,7 @@ body {
   background-size: 100% 150vh;
   font-family: Arial, sans-serif;
   text-align: center;
-  position:static;
+  position:relative;
   overflow-x: hidden;
   overflow-y:hidden;
   zoom: 100%;
@@ -137,6 +137,8 @@ button {
 .fa-lock,.fa-user
 {
 margin-left: 8px;
+display: inline-block;
+height: 5px;
 }
 
 .forgot-password {
