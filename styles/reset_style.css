@@ -3,6 +3,7 @@
 }
 
 .icon:hover {
+  border: 1px solid transparent;
  animation: alternate;
 }
 
@@ -10,21 +11,29 @@ body {
  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/proj-bg-1.png');
  background-size: cover;
  background-repeat: no-repeat;
- background-size: 100% 150vh;
+ background-size: 100% 125vh;
  font-family: Arial, sans-serif;
  text-align: center;
- position: relative;
- display: block;
+ position:flex;
  overflow-x: hidden;
+ overflow-y: hidden;
  margin: 0;
  padding: 0;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 header {
   position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
-  padding: 10px 0;
+  padding: .7em 0;
   z-index: 1000;
   margin-bottom:50px;
 }
@@ -32,13 +41,16 @@ header {
  background-color: #ddd;
  color: black;
 }
-
+*{
+  box-sizing: border-box;
+}
 
 .forgot-password-container button {
   display: block;
+  text-align: center;
   width: 70%;
   margin: 20px auto;
-  padding: 10px;
+  padding: .5rem;
   font-size: 16px;
   cursor: pointer;
   border-radius: 12px;
@@ -58,9 +70,9 @@ header {
   color: white;
   text-align: center;
   font-size: 20px;
-  padding: 14px 16px;
+  padding: 1em 1em;
   text-decoration: none;
-  margin-bottom: 50px;
+  margin-bottom: 4em;
  }
  
  .navbar a:hover {
@@ -100,13 +112,13 @@ input {
 
 .input-group input {
  width: 100%;
- padding: 10px;
+ padding: 1em;
  border: 1px solid #ccc;
  border-radius: 4px;
 }
 
 button {
- padding: 10px 20px;
+ padding: 0.7em 1.7em;
  background: #007bff;
  color: white;
  border: none;
@@ -114,9 +126,6 @@ button {
  cursor: pointer;
 }
 
-button:hover {
- background: #0056b3;
-}
 
 .forgot-password-container h2 {
  margin-bottom: 3px;
@@ -128,11 +137,15 @@ button:hover {
 
 .forgot-password-container {
  width: 40%;
- padding-bottom: 2%;
- padding-top: 3%;
+ height: 35%;
+ padding-bottom: 2em;
+ padding-top: 2em;
  align-self: center;
- margin-left: 35%;
- margin-top: 25%;
+ margin-left: 23.5em;
+ margin-top: 23.5em;
+ align-items: center;
+ vertical-align: middle;
+ margin-bottom: 3em;
  border-left: #0056b3;
  border-bottom: #0056b3;
  border-radius: 15px;
@@ -142,11 +155,14 @@ button:hover {
 .forgot-password , .fa-question
 {
 color: #007bff;
+font-size: 2rem;
 }
 .forgot-password-container input {
  width: 50%;
- padding: 10px;
- margin-bottom: 10px;
+ height: 30%;
+ margin-top: 1rem;
+ padding: 0.8rem;
+ margin-bottom: .7rem;
  border: 1px solid #ccc;
  border-radius: 5px;
 }
@@ -155,16 +171,27 @@ color: #007bff;
 .forgot-password-container button:hover {
  background-color: #45a049;
 }
-
+p{
+  font-size: larger;
+}
 .title {
 
   color: rgb(228, 235, 103);
- font-size: 40px;
+ font-size: 3rem;
  text-align: center;
  font-weight: bold;
- margin-top: 50px;
+ margin-top: 3rem;
 }
 .fa-envelope
 {
   image-resolution: 40px 35px;
+}
+.footer
+{
+margin-top: 3%;
+font-weight:bold ;
+width: 100%;
+background-color: rgba(53, 53, 54, 0.041);
+color: white;
+text-align: center;
 }

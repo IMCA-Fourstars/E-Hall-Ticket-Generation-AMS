@@ -4,7 +4,7 @@
 }
 
 .icon:hover {
-  border: 3px solid transparent;
+  border: 1px solid transparent;
   animation: alternate;
 }
 
@@ -119,10 +119,10 @@ input {
 
 .input-group input {
   width: 70%;
-  padding: 10px;
+  padding: 0.7rem;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin-left: 10px;
+  margin-left: .5rem;
 }
 
 button {
@@ -162,10 +162,10 @@ margin-left: 8px;
 
 .title {
   color: rgb(252, 249, 108);
-  font-size: 40px;
+  font-size: 3rem;
   text-align: center;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 3rem;
 }
 
 header {
@@ -173,7 +173,7 @@ header {
   top: 0;
   width: 100%;
   text-align: center;
-  padding: 10px 0;
+  padding: 0.7rem 0;
   z-index: 1000;
-  margin-bottom: 30px;
+  margin-bottom: 5rem;
 }
